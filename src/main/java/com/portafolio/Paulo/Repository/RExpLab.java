@@ -4,14 +4,14 @@
  */
 package com.portafolio.Paulo.Repository;
 
-import com.portafolio.Paulo.Entity.Experiencia;
+
+import com.portafolio.Paulo.Entity.ExpLab;
+
 import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
-
+import org.springframework.stereotype.Repository; 
 @Repository
-public interface RExperiencia extends JpaRepository<Experiencia, Integer>{
-        public Optional<Experiencia> findByNombreE(String nombreE);
-    public boolean existsByNombreE(String nombreE);
-
+public interface RExpLab extends JpaRepository<ExpLab, Integer>{
+          public Optional<ExpLab> findByNombre(String nombre);
+    public boolean existsByNombre(String nombre);
 }
