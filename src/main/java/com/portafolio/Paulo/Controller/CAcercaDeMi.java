@@ -28,7 +28,7 @@ import org.apache.commons.lang3.StringUtils;
 
 @RestController
 @RequestMapping("/Acerca")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://yo-programo-paulo.web.app")
 public class CAcercaDeMi {
     @Autowired
     SAcercaDeMi sAcercaDeMi;

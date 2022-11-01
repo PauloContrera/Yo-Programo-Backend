@@ -28,7 +28,7 @@ import org.apache.commons.lang3.StringUtils;
 
 @RestController
 @RequestMapping("/Habilidades")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://yo-programo-paulo.web.app")
 public class CHabilidades {
      @Autowired
     SHabilidades sHabilidades;
