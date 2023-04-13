@@ -28,7 +28,7 @@ import org.apache.commons.lang3.StringUtils;
 
 @RestController
 @RequestMapping("/Proyectos")
-@CrossOrigin(origins = "https://yo-programo-paulo.web.app")
+@CrossOrigin(origins = "*")
 public class CProyectos {
     @Autowired
     SProyectos sProyectos;

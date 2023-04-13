@@ -28,7 +28,7 @@ import org.apache.commons.lang3.StringUtils;
 
 @RestController
 @RequestMapping("/Idiomas")
-@CrossOrigin(origins = "https://yo-programo-paulo.web.app")
+@CrossOrigin(origins = "*")
 public class CIdiomas {
     @Autowired
     SIdiomas sIdiomas;

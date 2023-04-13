@@ -29,7 +29,7 @@ import org.apache.commons.lang3.StringUtils;
 
 @RestController
 @RequestMapping("/Educacion")
-@CrossOrigin(origins = "https://yo-programo-paulo.web.app")
+@CrossOrigin(origins = "*")
 public class CEducacion {
     @Autowired
     SEducacion sEducacion;

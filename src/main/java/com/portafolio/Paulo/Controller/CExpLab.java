@@ -24,7 +24,7 @@ import org.apache.commons.lang3.StringUtils;
 
 @RestController
 @RequestMapping("/ExpLab")
-@CrossOrigin(origins = "https://yo-programo-paulo.web.app")
+@CrossOrigin(origins = "*")
 public class CExpLab {
      @Autowired
     SExpLab sExpLab;
